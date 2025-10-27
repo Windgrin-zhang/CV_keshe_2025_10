@@ -1,8 +1,8 @@
 # 课程设计
 ## 数据集
 - 下载链接
-https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
-https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
+  - https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+  - https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
 
 
 ## cnn
