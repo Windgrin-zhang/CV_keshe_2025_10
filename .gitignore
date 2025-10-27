@@ -1,5 +1,7 @@
 # 忽略所有 PyTorch 权重文件
 *.pth
+*.gz
+
 
 # 忽略缓存文件
 __pycache__/
@@ -7,3 +9,4 @@ __pycache__/
 
 # 忽略模型保存目录
 model/
+dataset/
