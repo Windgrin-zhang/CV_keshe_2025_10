@@ -1,12 +1,66 @@
 # 忽略所有 PyTorch 权重文件
 *.pth
+*.pt
+*.pkl
 *.gz
 
+# 忽略模型检查点
+*.ckpt
 
 # 忽略缓存文件
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
 
-# 忽略模型保存目录
+# 忽略数据目录
 model/
 dataset/
+data/
+
+# 忽略输出目录
+output/
+checkpoints/
+logs/
+results/
+runs/
+
+# 忽略日志文件
+*.log
+logs/
+training.log
+
+# 忽略可视化文件
+*.png
+*.jpg
+*.jpeg
+*.pdf
+!README.md
+!**/README.md
+
+# 忽略指标文件
+metrics.json
+history.json
+
+# 忽略IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 忽略Python环境
+venv/
+env/
+ENV/
+.venv/
+
+# 忽略Jupyter notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# 忽略临时文件
+*.tmp
+*.temp
+.cache/
