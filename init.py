@@ -1,8 +1,10 @@
 import torch
 import torchvision.models as models
+import torchvision
+from torchvision import transforms
 import os
 
-
+## 交互式选择并下载 ResNet 模型函数
 def choose_and_download_resnet():
     """
     交互式选择并下载 PyTorch 官方 ResNet 模型，
@@ -58,7 +60,7 @@ def choose_and_download_resnet():
 
     print("\n🎉 所有选择的模型已下载并保存到 ./model 文件夹！")
 
-
-# ✅ 调用函数
+# 调用函数
 if __name__ == "__main__":
-    choose_and_download_resnet()
+    # choose_and_download_resnet()
+    # choose_and_download_cifar()
